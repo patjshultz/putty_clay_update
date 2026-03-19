@@ -1,0 +1,27 @@
+# ── Raw data (large files, re-downloadable) ──────────────────────────────────
+putty_clay_data/eia923_raw/*
+putty_clay_data/eia860_raw/*
+putty_clay_data/prices_raw/*
+putty_clay_data/clean/*
+!putty_clay_data/eia923_raw/.gitkeep
+!putty_clay_data/eia860_raw/.gitkeep
+!putty_clay_data/prices_raw/.gitkeep
+!putty_clay_data/clean/.gitkeep
+
+# ── Results are tracked (small CSVs + figures) ───────────────────────────────
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+*.env
+venv/
+.venv/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
